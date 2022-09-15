@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://127.0.0.1:5500/New%20file.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Document</title>
+    
+<link rel="stylesheet" href="./css_files/sampl.css"></head>
+<body>
+
+    <h1>SRIVIDYA SR</h1>
+    <h4>
+        <p>Student</p>
+        <p>+91 9363199065</p>
+        <p><u>727821tuee142@skct.edu.in</u></p>
+    </h4>
+    <h2>
+        <p>Education</p>
+    </h2>
+    <h4>
+        <ul>
+                 <h3><li>School</li></h3>
+                 <h5><ol><li>Montfort School</li>
+                    <ul><li>Yercaud</li></ul></ol></h5>
+                    <h5><li>College</li></h5>
+                    <h5><ol><li>SKCT</li>
+                    <ul><li>Coimbatore</li></ul></ol></h5>
+
+        </ul>
+    </h4>
+    <table border="1px">
+        <tbody><tr>
+            <td>Course name</td>
+            <td>Trainer</td>
+            <td>Hall</td>
+            <td>Company</td>
+        </tr>
+        <tr><td rowspan="2">c++</td>
+        <td>Dharani</td>
+        <td rowspan="5">Drawing hall</td>
+        <td rowspan="8">iamneo</td>
+        </tr><tr>
+            <td>koutheesh</td>
+        </tr>
+        <tr><td rowspan="3">java</td>
+        <td>Dharani</td>
+        </tr><tr>
+            <td>Koutheesh</td>
+        </tr>
+        <tr>
+            <td>Saadhik</td>
+        </tr>
+        <tr><td rowspan="2">RDBMS</td>
+        <td>Dharani</td>
+        <td rowspan="3">Incubation hall</td>
+        </tr><tr>
+            <td>Sakthivel</td>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td>Koutheesh</td>
+        </tr>
+
+    </tbody></table>
+    <h2>
+        <p>References</p>
+        <a href="https://github.com/Srividya0910">click here</a>
+        <img src="./css_files/images" alt="S">
+    </h2>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+
+
+
+</body></html>
